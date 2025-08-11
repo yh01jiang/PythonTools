@@ -1,0 +1,3 @@
+# 声明环境变量
+export ALIBABA_CLOUD_ACCESS_KEY_ID=****
+export ALIBABA_CLOUD_ACCESS_KEY_SECRE=*****
