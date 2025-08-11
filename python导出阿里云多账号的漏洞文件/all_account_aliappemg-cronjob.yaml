@@ -1,0 +1,18 @@
+apiVersion: batch/v1
+kind: CronJob
+metadata:
+  name: all-account-aliappeng-cronjob
+  namespace: ali-auto
+spec:
+  schedule: "30 8 * * 5"  # 每隔一周的周五早晨9点半 运行一次
+  jobTemplate:
+    spec:
+      template:
+        spec:
+          containers:
+          - name: all-account-aliappemg
+            image: *****-registry-vpc.cn-shanghai.cr.aliyuncs.com/tools/python-3.10-slim-aliappemg:all_account_app_emg_send_more_peopl_v2
+            env:
+            - name: TZ
+              value: "Asia/Shanghai"
+          restartPolicy: OnFailure
