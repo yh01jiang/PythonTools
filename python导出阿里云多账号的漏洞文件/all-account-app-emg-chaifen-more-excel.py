@@ -231,6 +231,7 @@ def send_split_files_from_config(config_path: str = "email_config.json"):
             logging.info(f"发送成功: {name} ({email}) -> {file_names}, 抄送: {cc_list}")
         except Exception as e:
             logging.error(f"发送失败: {name} ({email}) -> {file_names}，错误：{e}")
+            
 
 # ---------------------------- 主程序入口 ----------------------------
 def main():
