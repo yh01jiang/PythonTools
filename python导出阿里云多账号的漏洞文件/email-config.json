@@ -1,0 +1,5 @@
+{
+    "Alex": {"files": [ "ams.xlsx","JDE.xlsx","kbis.xlsx"], "email": "alex@***********","cc_list": ["mark@***********","Tom@***********","kevin@***********"]},
+    "Json": {"files": ["mt-pdms.xlsx", "aide-pdms.xlsx"], "email": "json@***********","cc_list": ["mark@***********","Tom@***********","kevin@***********", "barry.jiang@***********"]},
+
+}
