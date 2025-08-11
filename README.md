@@ -2,9 +2,6 @@
 python小工具
 
 
-@[toc]
-
-
 VVG 日志收集系统
 VVG (Vector → VictoriaLogs → Grafana) 是一个高性能的日志收集、存储和可视化解决方案。
 
